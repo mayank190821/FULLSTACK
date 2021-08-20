@@ -13,6 +13,9 @@
     font-weight: 800;
     padding: 3px 6px;
 }
+.text{
+    padding: 10px;
+}
 a{
     text-decoration: none;
     color: rgb(1, 86, 243);
