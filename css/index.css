@@ -1,0 +1,19 @@
+#heading{
+    display: flex;
+    justify-content: space-around;
+}
+#menu{
+    display: flex;
+    /* border: 2px solid red; */
+    list-style: none;
+    justify-content:space-evenly;
+}
+.menu-items{
+    border: 1px solid black;
+    font-weight: 800;
+    padding: 3px 6px;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
