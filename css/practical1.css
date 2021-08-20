@@ -1,0 +1,12 @@
+#image{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.img{
+    width: 50%;
+    height:50%;
+    margin: 20px;
+    border: 1px solid black;
+}
