@@ -1,0 +1,18 @@
+#heading{
+    text-align: center;
+    width: 100%;
+    color:bisque
+
+}
+#image{
+    display: flex;
+    justify-content: center;
+    margin-top:80px ;
+}
+#heading3{
+    text-align: center;
+    color:cyan;
+}
+body{
+    background-color: indigo;
+}

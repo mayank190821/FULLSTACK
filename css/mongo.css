@@ -1,0 +1,19 @@
+#heading{
+    text-align: center;
+    width: 100%;
+    color:black;
+}
+#image{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+}
+#para{
+    margin: 80px;
+}
+#code{
+    background-color:beige;
+    margin-left: 50px;
+    margin-right: 60em;
+    
+}
