@@ -1,160 +1,48 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
-    height: 100%;
-    background: url("../images/p7_web_bg1.jpg") no-repeat;
-    background-size:cover;
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
 }
-#container{
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    box-shadow: 1px 1px 15px 2px rgb(41, 37, 37);
-    border-radius: 50px;
-    margin:7vh;
-    height: 85vh;
-    background-size:cover;
-
-}
-#menu{
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: space-around;
-}
-#menu #logo img{
-    width: 8vw;
-    height:10vh;
-}
-#menu ul{
-    display: flex;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    justify-content: space-around;
-    width: 75%;
-    /* border: 1px solid red; */
+#header{
+    background-color: grey;
+    height: 80px;
+    line-height: 72px;
     
 }
-#menu ul li, #signIn{
-    list-style: none;
-    /* border: 1px solid red; */
+#heading{
+    text-align: center;
+    color: aliceblue;
+}
+#banner{
+    height:100vh;
+    background-color: aqua;
+    margin-top: 1vh;
+}
+#banner h1{
+    text-align: center;
+    line-height: 100vh;
+}
+#sec1{
+    height: 50vh;
+    margin-top: 1vh;
+    text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
-#menu ul li a,#signIn a{
-    text-decoration: none;
-    padding: 10px;
-    color: rgb(92,88,208);
-    text-transform:uppercase;
-    
-}
-#menu > ul li a:hover, #signIn a:hover{
-    border-bottom: 3px solid rgb(242 72 74);
-    color:rgb(242,72,74);
-}
-.active{
-    border-bottom: 3px solid rgb(242 72 74);
-    color:rgb(242,72,74) !important;
-}
-.fa{
-    padding-right:3px;
-}
-
-.drop-down-1{
-    display: none;
-}
-#menu ul li:hover .drop-down-1{
-    /* align-items: center; */
-    display: block;
-    position: absolute;
-    margin-left: -50px;
-    margin-top: 150px;
-}
-#menu ul li:hover .drop-down-1 ul li {
-    width: 100px;
-}
-
-#menu ul li:hover .drop-down-1 ul{
-    display: block;
-    margin-left: -70px;
-}
-#menu ul li:hover .drop-down-1 ul li a:hover{
-    background-color: rgb(92,88,208);
-    border-bottom-left-radius:10px ;
-    border-top-right-radius: 10px;
-    color: white ;
-}
-.drop-down-2{
-    display: none;
-}
-.drop-down-1 ul li:hover .drop-down-2{
-    display: block;
-    position: absolute;
-    margin-top: 100px;
-    margin-left:90px;
-    width: 7vw;
-    background-color: rgb(92,88,208);
-    /* overflow: hidden; */
-}
-.drop-down-1 ul li:hover .drop-down-2 ul{
-    display: block;
-    margin-left: 0px !important;
-    padding:0px !important;
-}
-
-.drop-down-2 ul a{
-    color: white !important;
-}
-
-.drop-down-2 ul li a:hover{
-    background-color: white !important;
-    color:rgb(92,88,208) !important;
-}
-
-#body-content{
+#sec1 div{
     display: flex;
-}
-#body-content-para{
-    display: flex;
-    justify-content: space-between;
-    padding: 74px;
-    flex-direction: column;
-    width: 55%;
-}
-#body-content-para h1{
-    color: #0e3a93;
-}
-#body-content-para p{
- color:#3a4c74;
-}
-#body-content-para h3{
-    color:#0b3d9a;
-}
-#body-content-para button{
-    background: linear-gradient(0.25turn,#2ba0bf,60%,#083d9a);
-    border-radius: 52px;
-    font-weight:bolder;
-    font-size: larger;
-    border: none;
-    padding: 10px;
     
 }
-#body-content-para .buttons a{
-    text-decoration: none;
-    color: white;
-}
-#button2 {
-    background: white !important;
-    border:2px solid #083d9a !important;
-}
-#button2 a{
-    color: #083d9a !important;
-}
-#body-content img{
-    width: 35%;
-    /* margin-top: 40px; */
-    /* margin-left: 50vw; */
-    height: 35%;
-    
+.circle{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 25vh;
+    height: 25vh;
+    /* margin-top: 10vh; */
+    margin: 5vw 4vw 1vw 1vw;
 }
