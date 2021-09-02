@@ -4,7 +4,7 @@
 }
 body{
     margin: 0;
-    padding: 3px;
+    padding: 8px;
     box-sizing: border-box;
 }
 #header{
@@ -21,6 +21,7 @@ body{
     height:100vh;
     background-color: aqua;
     margin-top: 1vh;
+    color: white;
 }
 #banner h1{
     text-align: center;
@@ -45,4 +46,70 @@ body{
     height: 25vh;
     /* margin-top: 10vh; */
     margin: 5vw 4vw 1vw 1vw;
+}
+#sec2 h1{
+    text-align: center;
+    margin: 18px 10px;
+}
+#sec2 div{
+    display: flex;
+}
+
+.main-content1{
+    width: 50%;
+    background-color: rgb(65, 63, 66);
+    height: 70vh;
+    margin-right: 5px;
+    color: white;
+}
+.main-content1 h1{
+    width: 100%;
+    line-height: 13;
+}
+.main-content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 70vh;
+    margin-left: 5px;
+}
+.article{
+    background-color:rgb(236, 111, 9);
+    width: 100%;
+    height: 20vh;
+    color: white;
+}
+.main-content2 .article h1{
+    width: 100%;
+    line-height: 19vh;
+}
+
+#sec3 h1{
+    text-align: center;
+    margin: 16px 10px;
+}
+#cards-container{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    background-color: red;
+    border-radius: 10px;
+    width: 20%;
+    height: 100%;
+}
+#sec4{
+    text-align: center;
+    margin: 20px;
+}
+#foot{
+    background-color: rgb(194, 129, 140);
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 10vh;
+    line-height: 1.5;
 }
