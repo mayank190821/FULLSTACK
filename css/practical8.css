@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    background-color: grey;
+    height: 80px;
+    line-height: 72px;
+    
+    
+}
+#header nav ul{
+    display: flex;
+    color: white;
+
+    justify-content: space-around;
+}
+#header nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+#header nav ul li a{
+    color: white;
+    font-weight: bolder;
+    font-variant:small-caps;
+    font-size: large;
+    text-decoration: none;
+
+}
+#banner{
+    height:100vh;
+    margin-top: 1vh;
+    background: url("../images/practical_8_web_banner.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-color: brown;
+}
+#banner h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+#sec1{
+    height: 50vh;
+    margin-top: 1vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sec1 div{
+    display: flex;
+    
+}
+.circle{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 25vh;
+    height: 25vh;
+    overflow: hidden;
+    /* margin-top: 10vh; */
+    margin: 5vw 4vw 1vw 1vw;
+}
+.circle img{
+    align-items: center;
+}
+#sec2 h1{
+    text-align: center;
+    margin: 18px 10px;
+}
+#sec2 div{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.main-content1{
+    width: 50%;
+    background-color: rgb(65, 63, 66);
+    height: 70vh;
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.main-content1 h1{
+    text-transform: uppercase;
+}
+.main-content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    /* height: 70vh; */
+    margin-left: 5px;
+}
+.article{
+    width: 100%;
+    height: 22vh;
+    /* color: white; */
+    overflow: hidden;
+    box-shadow: 1px 1px 10px 0.4px black;
+    border-radius: 10px;
+}
+
+#article-1{
+    background: url("../images/p8_proj1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#article-2{
+    background: url("../images/p8_proj-2.png");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#article-3{
+    background: url("../images/p8_proj3.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+#sec3 h1{
+    text-align: center;
+    margin: 16px 10px;
+}
+#cards-container{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    background-color: red;
+    border-radius: 10px;
+    width: 20%;
+    height: 100%;
+}
+#sec4{
+    text-align: center;
+    margin: 20px;
+}
+#foot{
+    background-color: rgb(194, 129, 140);
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 10vh;
+    line-height: 1.5;
+}
