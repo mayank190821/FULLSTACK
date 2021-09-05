@@ -79,7 +79,7 @@ body{
 
 }
 .circle{
-    background-color: yellow;
+    /* background-color: yellow; */
     border-radius: 50%;
     width: 25vh;
     height: 25vh;
