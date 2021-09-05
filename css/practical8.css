@@ -243,8 +243,10 @@ background-color: white;
     width: 100%;
     text-align: center;
     color: white;
-    height: 10vh;
+    height: 12vh;
     line-height: 1.5;
+    padding-top: 5vh;
+    border-radius: 0px 0px 30px 30px;
 }
 #foot h3 a{
     color: white;
