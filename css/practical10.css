@@ -29,8 +29,8 @@ body{
 }
 #side-bar {
     position: fixed;
-    width: 25%;
-    height: 100%;
+    width: 30%;
+    height: 100vh;
     opacity: .91;
     backdrop-filter: blur(120px);
     border: 3px solid white;
@@ -55,7 +55,29 @@ body{
     color: aqua;
 
 }
-
+#tech a img{
+    width: 25px;
+    height: 20px;
+}
+.fa{
+    margin: 4px;
+}
+#social{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.fab{
+    font-size: xx-large;
+    color: white;
+}
+.fab:hover{
+    color: #024fa1;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
 nav input {
     /* display: none; */
     visibility: hidden;
