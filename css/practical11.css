@@ -13,7 +13,6 @@ display: flex;
 flex-direction: column;
 color: rgba(206, 197, 197, 0.918);
 background-color: rgb(34, 31, 31);
-/* padding: 10px; */
 }
 #sec1{
     display: flex;    
