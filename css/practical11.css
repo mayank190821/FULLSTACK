@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main-heading{
+    text-align: center;
+    height: 50px;
+    margin-top: 10px;
+}
+footer{
+height: 90vh;
+display: flex;
+flex-direction: column;
+color: rgba(206, 197, 197, 0.918);
+background-color: rgb(34, 31, 31);
+/* padding: 10px; */
+}
+#sec1{
+    display: flex;    
+    height: 40%;
+    overflow: hidden;
+    background-color: #151414e8;
+    padding-top: 30px;
+}
+.head{
+    color: white;
+}
+#about{
+    width: 40%;
+    margin:5px 20px 0px 5px ;
+    padding: 5px 0px 0px 15px;
+}
+#cate{
+    width: 20%;
+    margin: 10px 20px 5px 20px;
+}
+
+#cate ul li{
+    list-style: none;
+    margin: 5px;
+}
+#cate ul li a{
+    text-decoration: none;
+    color: rgba(206, 197, 197, 0.918);
+}
+#cate ul li a:hover {
+    color:rgb(57, 178, 226);
+}
+#links{
+    width: 20%;
+    margin: 10px 20px 5px 20px;
+
+}
+#links ul li{
+    list-style: none;
+    margin: 5px;
+}
+#links ul li a{
+    text-decoration: none;
+    color: rgba(206, 197, 197, 0.918);
+}
+#links ul li a:hover{
+    color:rgb(0, 255, 136);
+}
+#contact{
+    width: 20%;
+    margin: 10px 20px 5px 20px;
+}
+#contact ul li {
+    list-style: none;
+    margin: 5px;
+}
+#sec2{
+    background-color: #0e0e0ed1;
+    display:flex;
+    height: 20%;
+    justify-content: center;
+    line-height: 3;
+    font-size: x-large;
+}
+#sec2 h3 a{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: red;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: large;
+}
+#sec2 h3 a:hover{
+
+    background-color: antiquewhite;
+    color: red;
+}
+#sec3{
+    background-color: #0e0e0e;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+#sec3 a{
+    text-decoration: none;
+    color:white;
+    height: fit-content;
+    margin: 50px 25px 0px 25px;
+}
+.fas{
+    margin-right: 5px;
+}
+.fa{
+    margin-right: 13px;
+}
+.fab{
+    font-size: xx-large;
+}
+.fa-facebook:hover{
+    color: rgb(8, 118, 243);
+}
+.fa-twitter:hover{
+    color: aqua;
+}
+.fa-google:hover{
+    color:darkgoldenrod;
+}
+.fa-instagram:hover{
+    color: rgb(212, 64, 96);
+}
+.fa-pinterest:hover{
+    color: red;
+}
+#sec4{
+    text-align: center;
+    background-color: #000000d9;
+    height: 10%;
+    line-height: 3;
+}
