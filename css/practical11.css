@@ -127,8 +127,24 @@ background-color: rgb(34, 31, 31);
     color: red;
 }
 #sec4{
-    text-align: center;
+    /* text-align: center; */
     background-color: #000000d9;
     height: 10%;
     line-height: 3;
+    display: flex;
+    justify-content: center;
+}
+#copy{
+    width: fit-content;
+}
+#copy::after{
+    content: '';
+    width: 0;
+    transition: width .3s;
+    height: 1px;
+    display: block;
+    background:yellow;
+}
+#copy:hover::after{
+    width: 100%;
 }
