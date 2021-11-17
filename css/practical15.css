@@ -64,3 +64,38 @@ button:hover{
     background-color: white;
     color: #bc25f3;
 }
+
+ 
+ form i {
+    /* position: absolute; */
+    right:8px;
+    top:33px;
+    visibility: hidden;
+}
+ form small {
+    font-size: smaller;
+    color:red;
+    visibility: hidden;
+}
+ 
+form .form-control.sucess i.check {
+    color:rgb(48, 207, 48);
+    visibility: visible;
+}
+form .form-control.sucess input {
+    border-color:rgb(48, 207, 48);
+}
+form .form-control.error i.exclamation {
+    color:red;
+    visibility: visible;
+}
+form .form-control.error input {
+    border-color:red;
+}
+.form-control.error small {
+    visibility: visible;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}

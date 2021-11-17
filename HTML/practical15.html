@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/practical15.css">
-    <script src="../js/practical15.js"></script>
     <script src="https://use.fontawesome.com/42d471cf8f.js"></script>
 </head>
 
@@ -15,20 +14,39 @@
     <div class="loginContainer">
         <form class="loginForm">
             <h1>Create Account</h1>
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username" required>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required onkeydown=ValidateEmail()>
-            <label for="pass">Password</label>
-            <input type="password" name="password" id="pass" required>
-            <label for="pass2">Password Again</label>
-            <input type="password" name="pass" id="pass2" required>
-            <button type="submit">
-                Submit
-            </button>
+            <div class="form-control">
+                <label title="only lower case alphabate">Username<input type="text" name="userName"
+                        placeholder="Enter User Name" id='username'><label>
+                        <!-- <i class="fa fa-check-circle check"></i>
+                        <i class="fa fa-exclamation-circle exclamation"></i> -->
+                        <small>Lorem ipsum dolor sit amet.</small>
+            </div>
+            <div class="form-control">
+                <label title="must have '@' followed by ''.com'">Email<input type="text" name="email"
+                        placeholder="Enter Email" id='email'></label>
+                <!-- <i class="fa fa-check-circle check"></i>
+                <i class="fa fa-exclamation-circle exclamation"></i> -->
+                <small>Lorem ipsum dolor sit amet.</small>
+            </div>
+            <div class="form-control">
+                <label title="all string are accepted except blank">Password<input type="password" name="password"
+                        placeholder="Enter Password" id=password1></label>
+                <!-- <i class="fa fa-check-circle check"></i>
+                <i class="fa fa-exclamation-circle exclamation"></i> -->
+                <small>Lorem ipsum dolor sit amet.</small>
+            </div>
+            <div class="form-control">
+                <label>Confirm Password<input type="password" name="confirm-password"
+                        placeholder="Confirm Your Password" id='password2'></label>
+                <!-- <i class="fa fa-check-circle check"></i>
+                <i class="fa fa-exclamation-circle exclamation"></i> -->
+                <small>Lorem ipsum dolor sit amet.</small>
+            </div>
+            <button type="submit">Submit</button>
         </form>
     </div>
-
+    </div>
+    <script src="../js/practical15.js"></script>
 </body>
 
 </html>
